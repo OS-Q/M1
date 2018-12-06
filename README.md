@@ -1,54 +1,55 @@
-﻿# M1:[离线控制](https://github.com/OS-Q/M1) 
+﻿# M1：[离线控制](https://github.com/OS-Q/M1) 
 
 [![sites](OS-Q/OS-Q.png)](http://www.OS-Q.com)
 
-离线控制节点，编程完成后不再接收控制指令
+离线控制节点，运行中不接收控制指令，根据情况可反馈状态信息
 
-#### 边缘控制：[Q1](https://github.com/OS-Q/Q1)
+#### 归属设备体系：[Q1](https://github.com/OS-Q/Q1)
 
-#### 系统架构：[OS-Q](https://github.com/OS-Q/OS-Q)
+#### 关于系统架构：[OS-Q](https://github.com/OS-Q/OS-Q)
 
 
 ## [节点描述](https://github.com/OS-Q/M1/wiki) 
 
-离线控制节点，通过编程处理简单逻辑，不向上反馈信息接收后续指令，直接独立完成控制处理
+离线控制节点，通过编程完成控制任务，可直接独立完成闭环事物
 
-### [共用资源](https://github.com/OS-Q/M1/wiki/src) 
+### [共用资源](https://github.com/OS-Q/M1/wiki) 
 
-#### 控制阈值
+
 
 ---
 
 边缘设备命名规则：体系 Q[1,4] > 节点 M[1,12] > 平台 W[1,52] > 设备 D[1,365]。
 
-## [包含平台](https://github.com/OS-Q/M1/wiki/index) 
+## [包含平台](https://github.com/OS-Q/M1/wiki) 
 
-#### W1:[低成本平台](https://github.com/OS-Q/W1)
+#### W1：[状态控制](https://github.com/OS-Q/W1)
 
-基于低成本方案提供丰富的离线控制方案
+控制电气状态，一般基于低成本方案
 
-#### W2:[性价比平台](https://github.com/OS-Q/W2)
+#### W2：[时序控制](https://github.com/OS-Q/W2)
 
-基于广泛应用的平台提供快速实现的方案
+完成时序组合逻辑控制
 
-#### W3:[高性能平台](https://github.com/OS-Q/W3)
+#### W3：[组合控制](https://github.com/OS-Q/W3)
 
-基于各种高性能处理平台完成对应控制
+同步控制多个器件，完成组合逻辑
 
-#### W4:[专用化平台](https://github.com/OS-Q/W4)
+#### W4：[专用控制](https://github.com/OS-Q/W4)
 
-基于各种专用设备完成专用领域的控制
+基于各种专用设备完成专用设备的控制
 
+## [同级节点](https://github.com/OS-Q/Q1/wiki/)
 
-## [同级节点](https://github.com/OS-Q/M1/wiki/index)
+#### -> M1：[离线控制](https://github.com/OS-Q/M1) 
 
-#### M2:[协同控制](https://github.com/OS-Q/M2)
+#### M2：[协同控制](https://github.com/OS-Q/M2)
 
-#### M3:[无线控制](https://github.com/OS-Q/M3)
+#### M3：[无线控制](https://github.com/OS-Q/M3)
 
 
 ---
 
-###  [Q redefined the scope of operation system](http://www.OS-Q.com)
+###  [Q redefined the scope of Operation System](http://www.OS-Q.com)
 ###  qitas@qitas.cn
-###  2018-11-28
+####  2018-12-5
