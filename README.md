@@ -21,9 +21,9 @@
 
 ### [同级节点](https://github.com/OS-Q/Q1)
 
-- M1：[信号采集](https://github.com/OS-Q/M1)
-- M2：[数据驱动](https://github.com/OS-Q/M2)
-- M3：[闭环控制](https://github.com/OS-Q/M3)
+- M1：[数据生产](https://github.com/OS-Q/M1)
+- M2：[数据消费](https://github.com/OS-Q/M2)
+- M3：[逻辑载体](https://github.com/OS-Q/M3)
 
 ### [OS-Q : Operation System for edge devices](http://www.OS-Q.com/Edge/M1)
 ####  2019-4-19  
