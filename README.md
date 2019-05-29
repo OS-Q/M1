@@ -1,28 +1,35 @@
-﻿# [状态数据](https://github.com/OS-Q/M1) 
+﻿# [数据转换](https://github.com/OS-Q/M1) 
+
 [![sites](OS-Q/OS-Q.png)](http://www.OS-Q.com)
+
 #### 归属数据生产：[Q1](https://github.com/OS-Q/Q1)
+
 #### 关于系统架构：[OS-Q](https://github.com/OS-Q/OS-Q)
+
 Edge-Q -> 体系 Q[1,4] -> 节点 M[1,12] -> 平台 W[1,52] -> 设备 D[1,365]
+
 ### [节点描述](https://github.com/OS-Q/M1/wiki) 
 
-状态数据生产节点，用于完成系统最前端的状态采集过程，所述的状态包括设备监控的电气状态和经过传感器转换的环境数据，以及声场光场多维数据。
+数据转换节点，通过集成各种数据采集终端传感器，通过归一的传感器实现数据输出。
+
+纯数据转换不带有业务控制逻辑，用于转换和采集数据，无策略无条件进行数据转换。
 
 ### [节点资源](https://github.com/OS-Q/M1) 
 
-- [资源](src/)
-- [文档](docs/)
+* [资源](src/)
+* [文档](docs/)
 
-### [节点结构](https://github.com/OS-Q/M1)
+### [节点相关](https://github.com/OS-Q/M1)
  
 * Q1：[数据生产](https://github.com/OS-Q/Q1)
-	* M1：[状态数据](https://github.com/OS-Q/M1)
-		* W1：[电压输入](https://github.com/OS-Q/W1)
-		* W2：[按键输入](https://github.com/OS-Q/W2)
-		* W3：[阈值监控](https://github.com/OS-Q/W3)
-		* W4：[生存监控](https://github.com/OS-Q/W4)
-	* M2：[环境数据](https://github.com/OS-Q/M2)
-	* M3：[多维数据](https://github.com/OS-Q/M3)
+	* M1：[数据转换](https://github.com/OS-Q/M1)
+		* W1：[嵌入模块](https://github.com/OS-Q/W1)
+		* W2：[标准单元](https://github.com/OS-Q/W2)
+		* W3：[集成设备](https://github.com/OS-Q/W3)
+		* W4：[扩展平台](https://github.com/OS-Q/W4)
+	* M2：[数据获取](https://github.com/OS-Q/M2)
+	* M3：[现场控制](https://github.com/OS-Q/M3)
 
 ### [OS-Q : Operation System for edge devices](http://www.OS-Q.com/Edge/M1)
-####  2019-4-25  
+####  2019-5-29 
 
