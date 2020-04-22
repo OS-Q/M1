@@ -1,30 +1,18 @@
-﻿# [功能控制](https://github.com/OS-Q/M1) 
-[![sites](OS-Q/OS-Q.png)](http://www.OS-Q.com)
-#### 归属控制体系：[Q1](https://github.com/OS-Q/Q1)
-#### 关于系统架构：[OS-Q](https://github.com/OS-Q/OS-Q)
+﻿# [Dividion M01](https://github.com/OS-Q/M01) 
 
-[EDGE-Q](https://github.com/OS-Q/EDGE-Q) -> Q[4] -> M[12] -> W[52] -> D[365] -> H[24] -> N[60] -> S[60]
+[![sites](http://182.61.61.133/link/resources/OSQ.png)](http://www.OS-Q.com)
 
-### [节点描述](https://github.com/OS-Q/M1/wiki) 
+Q[4] - M[12] - W[52] - D[365] - H[24] - N[60] - S[60]
 
- [功能控制](https://github.com/OS-Q/M1) 使用MCU控制外设，完成控制回路
+### [Dividion 描述](https://github.com/OS-Q/M01/wiki) 
 
-### [节点资源](https://github.com/OS-Q/M1) 
+[M01](https://github.com/OS-Q/M01) 
 
-* [资源](src/)
-* [文档](docs/)
-
-### [拓扑关系](https://github.com/OS-Q/M1)
+### [拓扑关系](https://github.com/OS-Q/M01)
  
-* Q1：[控制体系](https://github.com/OS-Q/Q1)
-	* M1：[功能控制](https://github.com/OS-Q/M1)
-		* W1：[嵌入模块](https://github.com/OS-Q/W1)
-		* W2：[标准单元](https://github.com/OS-Q/W2)
-		* W3：[集成设备](https://github.com/OS-Q/W3)
-		* W4：[扩展平台](https://github.com/OS-Q/W4)
-		* W5：[扩展平台](https://github.com/OS-Q/W5)
-	* M2：[效能控制](https://github.com/OS-Q/M2)
-	* M3：[群组控制](https://github.com/OS-Q/M3)
+* Q1：[Low end 8bits](https://github.com/OS-Q/Q1)
+    * M01：[8051](https://github.com/OS-Q/M01)
+        * H01：[STC](https://github.com/OS-Q/H01)
+        * H02：[WCH](https://github.com/OS-Q/H02)
 
-### [OS-Q = Open Solutions | Open Source |  Operating System ](http://www.OS-Q.com/M1)
-####  2019-8-26
+### [OS-Q = Open Solutions | Open Source |  Operating System ](http://www.OS-Q.com/M01)
